@@ -1,60 +1,33 @@
-<html>
-    <title>
-        CHRIK'S HOMEPAGE
-    </title>
-
-    <style>
-        body {
-            background-color: sienna;
-            color: #00ffff;
-            text-align: center;
-        }
-
-        .flex-container {
-            display: flex;
-            flex-wrap: wrap;
-            background-color: #2f5d5d;
-            margin: 10px;
-            padding: 10px;
-            justify-content: space-around;
-        }
-
-        .flex-container > div {
-            background-color: #ffffff;
-            align-items: center;
-            width: 100px;
-            height: 100px;
-            border: 15px solid #189dd1;
-            padding: 25px;
-            margin: 25px;
-        }
-
-        .icon{
-            widows: 100px; 
-            height: 100px;
-        }
-
-    
-    
-    </style>
-
+<!DOCTYPE html>
+<head>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <body>
-        <h1>CHRIK'S HOMEPAGE</h1>
-        <h3>This is my homepage that will have links to my frequently used websites when its completed!</h3>
-
-        <div class="flex-container">
-            <div> <a href="https://canvas.ucdavis.edu/"> <img class="icon" src="pics/canvas.png" alt="canvas"> </a></div>
-            <div> <a href="http://www.crunchyroll.com/one-piece"> <img class="icon" src="pics/crunchyroll.png" alt="crunchyroll"> </a></div>
-            <div> <a href="https://discordapp.com/channels/360256984785616896/360256984785616898"> <img class="icon" src="pics/Discord.png" alt="discord"> </a></div>
-            <div> <a href="https://github.com/chrik119"> <img class="icon" src="pics/github.png" alt="github"> </a></div>
-            <div> <a href="https://www.netflix.com/browse"> <img class="icon" src="pics/netflix.png" alt="netflix"> </a></div>
-            <div> <a href="http://na.op.gg/champion/statistics"> <img class="icon" src="pics/OPGG.png" alt="opgg"> </a></div>
-            <div> <a href="https://www.pandora.com"> <img class="icon" src="pics/pandora.png" alt="pandora"> </a></div>
-            <div> <a href="https://www.twitch.tv/"> <img class="icon" src="pics/twitch.png" alt="twitch"> </a></div>
-            <div> <a href="https://www.udemy.com/ios-11-app-development-bootcamp/learn/v4/overview"> <img class="icon" src="pics/udemy.png" alt="udemy"> </a></div>
-            <div> <a href="https://www.youtube.com/"> <img class="icon" src="pics/youtube.png" alt="youtube"> </a></div>
-        </div>
-    </body>
-
-    
+</head>
+    <div id="header">Chris's Homepage</div>
+    <div id="links">
+        <a href="https://github.com/chrik119?tab=repositories"><img src="pics/github.png"></a>
+        <a href="https://www.youtube.com/"><img src="pics/youtube.png"></a>
+        <a href="https://discord.com/channels/744217054273601636/744217054856478883"><img src="pics/discord.svg"></a>
+        <a href="http://na.op.gg/champion/statistics"><img src="pics/opgg.png"></a>
+        <a href="https://www.twitch.tv/"><img src="pics/twitch.svg"></a>
+        <a href="https://www.pandora.com/"><img src="pics/pandora.jpeg"></a>
+        <a href="https://www.udemy.com/course/the-web-developer-bootcamp/learn"><img src="pics/udemy.svg"></a>
+    </div>
+    <div id="todo">
+        <table id="check-list">
+            <tr>
+                <th colspan="4">To Do List</th>
+            </tr>
+            <tr>
+                <td class="task">Build the HTML of my new homepage</td>
+                <td class="edit-task-btn"><input type="button" value="Edit"></td>
+                <td class="delete-task-btn"><input type="button" value="Delete">    </td>
+                <td class="check-task-radio"><input type="radio"></td>
+            </tr>
+        </table>
+    </div>
+</body>
 </html>
