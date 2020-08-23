@@ -52,3 +52,9 @@ html,body{
 .link-pic{
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .links {
+        margin: 5%;
+    }
+}
