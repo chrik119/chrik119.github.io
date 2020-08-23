@@ -54,7 +54,8 @@ html,body{
 }
 
 @media (max-width: 768px) {
-    .links {
+    #links {
+        width: 90%;
         margin: 5%;
     }
 }
