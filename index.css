@@ -1,7 +1,4 @@
-/* HTML TAGS
-rgb(145,20,110)
-rgba(226,255,0,1)
-*/
+/* HTML TAGS */
 html,body{
     background: linear-gradient(157deg, rgb(0, 89, 25) 0%, rgb(76, 141, 216) 100%);
     width: 100%;
