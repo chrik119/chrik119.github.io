@@ -1,6 +1,6 @@
 # This my Homepage
 ## Why make this?
-I created this webpage because I wanted a fun and stylish way to view the bookmarkers of my favorite an most visited websites.
+I created this webpage because I wanted a fun and stylish way to view the bookmarkers of my favorite and most visited websites.
 
 ## What is interesting about this?
 Some of the features I like most about this website are:
